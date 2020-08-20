@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo "dtoverlay=dwc2,dr_mode=otg" >> /boot/efi/extraconfig.txt

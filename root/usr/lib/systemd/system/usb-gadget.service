@@ -1,0 +1,10 @@
+[Unit]
+Description=Setup USB Gadget mode
+Before=dnsmasq.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/usb-gadget
+
+[Install]
+WantedBy=network.service
